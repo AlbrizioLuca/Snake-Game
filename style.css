@@ -1,0 +1,25 @@
+button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    color: white;
+    background: blue;
+    border-radius: 25px;
+}
+
+button:hover{
+    color: black;
+    background: yellow;
+    border-radius: 25px;
+}
+
+canvas{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    border: 10px solid black;
+    transform: translate(-50%, -50%);
+}
